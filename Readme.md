@@ -85,7 +85,7 @@ configBuilder.AddDockerSecrets(
 setenv MY_SECRETS_PREFIXES "ConfigSection1__,Foo__Bar__Baz"
 ```
 ```cs
-configBuilder.AddDockerSecrets(MY_SECRETS_PREFIXES);
+configBuilder.AddDockerSecrets("MY_SECRETS_PREFIXES");
 ```
 
 

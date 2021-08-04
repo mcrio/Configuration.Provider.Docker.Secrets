@@ -3,3 +3,6 @@ obj/
 /packages/
 .DS_Store
 .idea/
+
+# User-specific files
+*.user
